@@ -9,7 +9,7 @@ public class HarmonicNumber {
         System.out.print("Enter Nth Harmonic number: ");
         Scanner sc = new Scanner(System.in);
         N = sc.nextInt();
-        System.out.printf("The %dth harmonic series: ",N);
+        System.out.printf("The %dth Harmonic series: ",N);
         System.out.print("1");
 
         for(int i=2; i<=N; i++){
@@ -17,7 +17,7 @@ public class HarmonicNumber {
             nthHarmonicValue += (double)1/i;
         }
 
-        System.out.printf("\nThe %dth harmonic value H%d: ",N,N);
+        System.out.printf("\nThe %dth Harmonic value H%d: ",N,N);
         System.out.println(nthHarmonicValue);
     }
 }

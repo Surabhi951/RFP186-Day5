@@ -6,9 +6,9 @@ public class QuotientAndReminder {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
-        System.out.print("enter devident : ");
+        System.out.print("Enter devident : ");
         int devident=scanner.nextInt();
-        System.out.print("enter divisor : ");
+        System.out.print("Enter divisor : ");
         int divisor=scanner.nextInt();
 
         int quotient=devident/divisor;

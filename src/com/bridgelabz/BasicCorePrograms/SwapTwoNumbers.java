@@ -14,10 +14,10 @@ public class SwapTwoNumbers {
 
 
     public void swapping(int a , int b){
-        System.out.println("before swapping of two numbers" + a + " " + b);
+        System.out.println("Before swapping of two numbers" + a + " " + b);
         int swap = a;
         a = b;
         b = swap;
-        System.out.println("after swapping of two number" + a + " " + b);
+        System.out.println("After swapping of two number" + a + " " + b);
     }
 }
