@@ -7,7 +7,7 @@ public class PowerOfTwo {
         int num = 2;
         int N;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the power: ");
+        System.out.println("Enter the Power: ");
         N = sc.nextInt();
         PowerOfTwo p = new PowerOfTwo();
         p.power(num, N);

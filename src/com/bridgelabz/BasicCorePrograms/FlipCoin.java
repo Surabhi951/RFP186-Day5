@@ -22,8 +22,8 @@ public class FlipCoin {
         System.out.println("Number of Tail flips: "+tails);
         double headsPercent = (double)heads/flips*100;
         double tailsPercent = (double) tails/flips*100;
-        System.out.println("percentage of heads:" +headsPercent);
-        System.out.println("percentage of tails:" + tailsPercent);
+        System.out.println("Percentage of heads:" +headsPercent);
+        System.out.println("Percentage of tails:" + tailsPercent);
     }
 
 }

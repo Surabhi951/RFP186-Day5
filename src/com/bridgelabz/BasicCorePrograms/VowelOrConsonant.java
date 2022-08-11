@@ -13,10 +13,10 @@ public class VowelOrConsonant {
 
     public void alphabet(char ch){
         if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-            System.out.println("vowel is:" +ch);
+            System.out.println("Vowel is:" +ch);
         }
         else {
-            System.out.println("consonant is:" +ch);
+            System.out.println("Consonant is:" +ch);
         }
     }
 }

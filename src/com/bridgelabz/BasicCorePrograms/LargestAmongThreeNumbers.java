@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LargestAmongThreeNumbers {
     public static void main(String[] args) {
-        System.out.println("Enter three number");
+        System.out.println("Enter Three Number");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();

@@ -7,7 +7,7 @@ public class Factors {
         System.out.println("Enter the Number");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println("The prime factors are:");
+        System.out.println("The Prime factors are:");
         primeFactorization(num);
     }
         public static void primeFactorization(int num) {
